@@ -1,14 +1,19 @@
 <html>
 	<head>
  		<title>ShareIt with QRCODE</title>
+ 		<link href="static/css/shareit.css" rel="stylesheet" type="text/css" />
 	</head>
 	<body>
-		<div class="datas">
-			<input class="input" type="text"/>
-			<span class="button">get qrcode</span>
+		<div class="content">
+			<div class="datas">
+				<input class="text" type="text"/>
+				<span class="button">getqrcode</span>
+			</div>
+			<span class="loading">loading</span>
+			<div class="qr-code">
+			</div>
 		</div>
-		<span class="loading">loading</span>
-		<div class="qr-code">
-		</div>
+		<script src="static/js/jquery-1.9.1.min.js"></script>
+		<script src="static/js/shareit.js"></script>
 	</body>
 </html>
