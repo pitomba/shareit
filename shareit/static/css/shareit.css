@@ -39,7 +39,13 @@ body{
 	overflow: hidden;
 	text-indent: 120px;
 }
-
 .content .loading{
-	display:none;
+	display: block;
+	opacity: 0;
+	margin: auto;
 }
+
+.content .qr-code{
+	margin: auto;
+}
+
